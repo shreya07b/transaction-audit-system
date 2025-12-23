@@ -72,7 +72,7 @@ Request Body:
   "email": "sammy@test.com",
   "password": "password123"
 }
-
+```
 Response:
 
 201 Created – User registered successfully
