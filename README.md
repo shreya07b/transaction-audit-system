@@ -15,7 +15,7 @@ Provide a clean, responsive frontend dashboard
 Demonstrate real-world backend practices such as transactions, validation, and error handling
 
 
-**Tech Stack**
+## Tech Stack
 
 Backend: Node.js, Express.js, Sequelize ORM, SQLite ,RESTful APIs
 
@@ -26,7 +26,7 @@ Tooling: Postman – API testing, Git & GitHub
 AI Tools – ChatGPT, Gemini
 
 
-**Setup & Run Instructions**
+## Setup & Run Instructions
 
 **Clone the Repository**
 
