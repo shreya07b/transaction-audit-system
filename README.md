@@ -75,9 +75,9 @@ Request Body:
 ```
 Response:
 
-201 Created – User registered successfully
+-> 201 Created – User registered successfully
 
-400 Bad Request – Validation error
+-> 400 Bad Request – Validation error
 
 
 ### Transaction APIs
@@ -92,17 +92,17 @@ Request Body:
   "receiver_id": 2,
   "amount": 200
 }
-
+```
 Behavior:
 
-Uses DB transactions
+-> Uses DB transactions
 
-Logs SUCCESS or FAILED status
+-> Logs SUCCESS or FAILED status
 
 ## 🗄️ Database Schema
 
 ### User Table
-
+```json
 | Field | Type | Description |
 |------|------|-------------|
 | id | INTEGER | Primary Key |
@@ -120,7 +120,6 @@ Logs SUCCESS or FAILED status
 | amount | FLOAT | Transfer amount |
 | status | STRING | SUCCESS / FAILED |
 | createdAt | DATETIME | Timestamp |
-
-
+```
 
 
