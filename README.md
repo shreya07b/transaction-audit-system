@@ -58,7 +58,7 @@ npm run dev
 ->Frontend runs on: http://localhost:5173
 
 
-## 🔗 API Documentation
+##  API Documentation
 
 ### User APIs
 
@@ -99,7 +99,7 @@ Behavior:
 
 -> Logs SUCCESS or FAILED status
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### User Table
 ```json
@@ -122,4 +122,20 @@ Behavior:
 | createdAt | DATETIME | Timestamp |
 ```
 
+## AI-Assisted Tasks
+
+Backend Architecture	->  Sequelize project structure
+
+Transaction Logic	-> Implemented atomic fund transfer using DB transactions
+
+Debugging	Identified -> API route mismatches and frontend-backend issues
+
+Documentation	Generated -> structured README and API docs
+
+## Effectiveness Score
+
+Score: 4 / 5
+
+Justification:
+AI tools significantly accelerated development by reducing boilerplate work, guiding architectural decisions, assisting with debugging complex issues, and improving documentation quality. This saved several hours of development time while maintaining code clarity and correctness.
 
