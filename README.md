@@ -100,9 +100,9 @@ Behavior:
 -> Logs SUCCESS or FAILED status
 
 ## Database Schema
-
-### User Table
 ```json
+### User Table
+
 | Field | Type | Description |
 |------|------|-------------|
 | id | INTEGER | Primary Key |
