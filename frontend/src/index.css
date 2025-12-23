@@ -1,0 +1,109 @@
+/* Page container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* Card layout */
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Titles */
+h1 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-bottom: 18px;
+}
+
+/* Form row */
+.form-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+/* Inputs */
+.form-row input {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+  min-width: 220px;
+}
+
+/* Buttons */
+.form-row button {
+  padding: 12px 26px;
+  border-radius: 14px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.form-row button:hover {
+  background-color: #1e4fd6;
+}
+
+.form-row button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Error text */
+.error-text {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Transaction History Table */
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 14px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.transaction-table thead {
+  background-color: #f3f4f6;
+}
+
+.transaction-table tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+/* Status styling */
+.status {
+  font-weight: 600;
+}
+
+.status.success {
+  color: #16a34a;
+}
+
+.status.failed {
+  color: #dc2626;
+}
