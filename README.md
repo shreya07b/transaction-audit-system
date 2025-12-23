@@ -57,6 +57,24 @@ npm run dev
 
 ->Frontend runs on: http://localhost:5173
 
-#API Documentation
+**API Documentation**
+
+## 🔗 API Documentation
+
+### User APIs
+
+#### Register User
+POST /api/auth/register
+
+Request Body:
+```json
+{
+  "name": "Sammy",
+  "email": "sammy@test.com",
+  "password": "password123"
+}
+
+
+
 
 
