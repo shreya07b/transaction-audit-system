@@ -57,7 +57,6 @@ npm run dev
 
 ->Frontend runs on: http://localhost:5173
 
-**API Documentation**
 
 ## 🔗 API Documentation
 
@@ -74,6 +73,53 @@ Request Body:
   "password": "password123"
 }
 
+Response:
+
+201 Created – User registered successfully
+
+400 Bad Request – Validation error
+
+
+### Transaction APIs
+
+#### Transfer Funds
+POST /transactions/transfer
+
+Request Body:
+```json
+{
+  "sender_id": 1,
+  "receiver_id": 2,
+  "amount": 200
+}
+
+Behavior:
+
+Uses DB transactions
+
+Logs SUCCESS or FAILED status
+
+## 🗄️ Database Schema
+
+### User Table
+
+| Field | Type | Description |
+|------|------|-------------|
+| id | INTEGER | Primary Key |
+| name | STRING | User name |
+| email | STRING | Unique email |
+| password | STRING | Hashed password |
+
+### Transaction Table
+
+| Field | Type | Description |
+|------|------|-------------|
+| id | INTEGER | Primary Key |
+| sender_id | INTEGER | Sender user ID |
+| receiver_id | INTEGER | Receiver user ID |
+| amount | FLOAT | Transfer amount |
+| status | STRING | SUCCESS / FAILED |
+| createdAt | DATETIME | Timestamp |
 
 
 
