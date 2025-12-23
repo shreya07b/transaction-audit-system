@@ -6,11 +6,8 @@ The system ensures that every transaction attempt (successful or failed) is reco
 **Key Objectives**
 
 Implement a reliable fund transfer API
-
 Maintain an immutable transaction audit log
-
 Provide a clean, responsive frontend dashboard
-
 Demonstrate real-world backend practices such as transactions, validation, and error handling
 
 **Tech Stack**
@@ -27,7 +24,9 @@ cd transaction-audit-system
 
 **Backend Setup**
 cd backend
+
 npm install
+
 npm start
 
 -> Backend runs on: http://localhost:5000
@@ -35,7 +34,9 @@ npm start
 
 **Frontend Setup**
 cd frontend
+
 npm install
+
 npm run dev
 
 ->Frontend runs on: http://localhost:5173
